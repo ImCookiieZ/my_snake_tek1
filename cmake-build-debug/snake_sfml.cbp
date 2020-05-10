@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="snake_sfml"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snake_sfml">
+				<Option output="/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/snake_sfml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 snake_sfml"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="snake_sfml/fast">
+				<Option output="/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/snake_sfml" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 snake_sfml/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/CookiieZ/Epitech/hub/snake_sfml/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/button.cpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/button.hpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/game.cpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/game.hpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/snake.cpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/snake.hpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/snake_change_dir.cpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/snake_in_game.cpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/textbox.cpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/classes/textbox.hpp">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/include/all_includes.h">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/src/collisions.c++">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/src/gameloop.c++">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/src/main.c++">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/src/menu.c++">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/src/start_game.c++">
+			<Option target="snake_sfml"/>
+		</Unit>
+		<Unit filename="/home/CookiieZ/Epitech/hub/snake_sfml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

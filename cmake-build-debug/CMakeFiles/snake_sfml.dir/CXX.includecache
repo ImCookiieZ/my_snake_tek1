@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/CookiieZ/Epitech/hub/snake_sfml/classes/game.hpp
+snake.hpp
+/home/CookiieZ/Epitech/hub/snake_sfml/classes/snake.hpp
+
+/home/CookiieZ/Epitech/hub/snake_sfml/classes/snake.hpp
+SFML/Graphics.hpp
+-
+list
+-
+
+/home/CookiieZ/Epitech/hub/snake_sfml/classes/textbox.cpp
+../include/all_includes.h
+/home/CookiieZ/Epitech/hub/snake_sfml/include/all_includes.h
+textbox.hpp
+/home/CookiieZ/Epitech/hub/snake_sfml/classes/textbox.hpp
+
+/home/CookiieZ/Epitech/hub/snake_sfml/classes/textbox.hpp
+
+/home/CookiieZ/Epitech/hub/snake_sfml/include/all_includes.h
+iostream
+-
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
+SFML/Audio.hpp
+-
+SFML/System.hpp
+-
+../classes/game.hpp
+/home/CookiieZ/Epitech/hub/snake_sfml/classes/game.hpp
+
