@@ -36,7 +36,6 @@ private:
     sf::Texture tails [4];
     sf::Texture turns [4];
     sf::Texture betweens [2];
-    sf::Vector2f mover;
     int SPEED = 64;
     //methods
     int change_texture_turn(int from, int to, std::list<parts_t>::iterator cur);
@@ -49,6 +48,7 @@ private:
 
 public:
     //variables
+    sf::Vector2f mover;
     int my_insert_nb = 0;
     std::list<parts_t> parts;
     int len = 3;

@@ -13,11 +13,11 @@ void start_game(sf::RenderWindow *my_win)
 {
     bool ret = false;
     Game gameobject (my_win);
-    Textbox score ("Score:", 50, 50, 0, sf::Color::White);
-    Textbox score_nb ("insert", 40, 200, 10, sf::Color::White);
+    Textbox score ("Score:", 50, 750, 10, sf::Color::White);
+    Textbox score_nb ("insert", 40, 900, 20, sf::Color::White);
     score_nb.set_font("assets/font.ttf");
-    Textbox high_score ("Highscore:", 50, 300, 0, sf::Color::White);
-    Textbox high_score_nb ("insert", 40, 600, 10, sf::Color::White);
+    Textbox high_score ("Highscore:", 50, 1100, 10, sf::Color::White);
+    Textbox high_score_nb ("insert", 40, 1300, 20, sf::Color::White);
     high_score_nb.set_font("assets/font.ttf");
     gameobject.my_snake.init_pics();
     place_valid_item(&gameobject);
@@ -51,8 +51,8 @@ void start_game(sf::RenderWindow *my_win)
         high_score_nb.update(my_win);
         gameobject.get_window()->display();
     }
-    if (ret) {
-        menu(my_win, "restart", "exit", "GAME OVER", 1);
-    }
     gameobject.set_highscore();
+    if (ret) {
+        menu(my_win, "Restart", "Exit", "GAME OVER", 1);
+    }
 }

@@ -36,6 +36,7 @@ public:
     explicit Game(sf::RenderWindow *window_par);
     void draw_fix_objects();
     void print_snake();
+    void set_item_texture(int nb);
     int get_score();
     void increase_score();
     void set_highscore() const;

@@ -9,14 +9,17 @@
 
 void place_valid_item(Game *game_object)
 {
+    int ran = rand() % 2;
     sf::Vector2f const pos = {
         static_cast<float>((rand() % (1920 / 64 - 2) + 1) * 64),
         static_cast<float>((rand() % (1025 / 64 - 2) + 1) * 64)
     };
     if (check_item_collision(game_object, pos))
         place_valid_item(game_object);
-    else
+    else {
         game_object->item.setPosition(pos);
+        game_object->set_item_texture(ran);
+    }
 }
 
 void check_event(Game *game_object)
@@ -53,7 +56,8 @@ bool gamelooop(Game *game_object)
         }
         if (self_collision(game_object))
             return (true);
-        game_object->timer_for_move += sf::milliseconds(300);
+        game_object->timer_for_move += sf::milliseconds(300 -
+            game_object->get_score() * 2);
 
     }
     game_object->get_window()->clear(sf::Color::Black);

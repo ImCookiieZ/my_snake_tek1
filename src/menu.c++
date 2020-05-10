@@ -48,7 +48,7 @@ bool direction_self(Snake snake, char dir)
             break;
     }
     cur++;
-    for (; cur != snake.parts.end(); ++cur)
+    for (; cur != --snake.parts.end(); ++cur)
     {
         if (cur->pos == pos)
             return (true);
@@ -77,6 +77,16 @@ bool get_item(Game *game)
     return true;
 }
 
+bool check_same_dir(Game *game_object)
+{
+    sf::Vector2f new_vec;
+    std::list<parts_t>::iterator cur;
+    cur = game_object->my_snake.parts.begin();
+    new_vec = cur->pos + game_object->my_snake.mover;
+    return !(new_vec.x < 64 || new_vec.x + 64 > 1920 - 64 || new_vec.y < 64 ||
+             new_vec.y + 64 > 1025 - 64);
+}
+
 void ai_get_direction(Game *game_object)
 {
     std::string directions;
@@ -97,6 +107,8 @@ void ai_get_direction(Game *game_object)
     if (cur->pos.y - 64 > 0 && !direction_self(game_object->my_snake,
         'U'))
         directions.append("U");
+    if (directions.length() == 0)
+        return;
     r = rand() % directions.length();
     if (directions[r] == 'R' && cur->dir % 2 == 0)
         game_object->my_snake.turn_right();
@@ -106,7 +118,9 @@ void ai_get_direction(Game *game_object)
         game_object->my_snake.turn_up();
     else if (directions[r] == 'D' && cur->dir % 2 == 1)
         game_object->my_snake.turn_down();
-    directions.clear();
+    else
+        if (!check_same_dir(game_object))
+            ai_get_direction(game_object);
 }
 
 void ai_snake(Game *game_object)

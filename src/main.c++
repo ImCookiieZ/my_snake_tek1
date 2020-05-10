@@ -21,5 +21,5 @@ int main(int ac, char **av)
     music.setLoop(true);
     music.setVolume(5);
     music.play();
-    menu(&my_win, "start", "exit", "MAIN MENU", 1);
+    menu(&my_win, "Start", "Exit", "MAIN MENU", 1);
 }

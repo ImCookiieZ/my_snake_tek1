@@ -112,3 +112,11 @@ int Game::get_highscore() const
     return this->highscore;
 }
 
+void Game::set_item_texture(int nb)
+{
+    if (nb == 0)
+        this->item.setTexture(item1);
+    else
+        this->item.setTexture(item2);
+}
+
